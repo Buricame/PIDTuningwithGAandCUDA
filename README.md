@@ -12,6 +12,10 @@ The PID controller is widely used in various control systems for its simplicity 
 - **Genetic Algorithm**: Uses the DEAP library to evolve and optimize PID parameters.
 - **Ziegler-Nichols Tuning**: Provides initial PID parameter estimates based on the Ziegler-Nichols method.
 
+## Limitations
+
+Please note that the optimization results may not always be highly accurate. The performance of the PID controller is dependent on various factors, including the quality of the data and the effectiveness of the Genetic Algorithm parameters. As a result, the optimized PID parameters might not achieve the best possible performance in all scenarios.
+
 ## Prerequisites
 
 To run this code, you need to have the following Python packages installed:
@@ -24,5 +28,6 @@ To run this code, you need to have the following Python packages installed:
 You can install the required packages using pip:
 
 ```bash
-pip install numpy pandas deap numba
+
+
 
