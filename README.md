@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project implements a PID (Proportional-Integral-Derivative) controller tuning using a Genetic Algorithm. The goal is to find optimal PID parameters to minimize the Integral of Absolute Error (IAE) by simulating the controller's performance on a given dataset.
+This project implements a PID (Proportional-Integral-Derivative) controller tuning using a Genetic Algorithm (GA). The goal is to find optimal PID parameters (P, I, and D) that minimize the Integral of Absolute Error (IAE). The controller's performance is simulated using real flight data extracted from a CSV file, which contains data collected from previous flights.
 
-The PID controller is widely used in various control systems for its simplicity and effectiveness. The Genetic Algorithm (GA) is employed here to optimize the PID parameters (P, I, and D) by exploring different combinations and evolving over generations to improve performance.
+The Genetic Algorithm is employed to optimize the PID parameters by exploring different combinations and evolving over generations to improve the performance based on the given dataset. This approach is particularly effective when dealing with dynamic systems like UAVs, where optimal tuning can significantly improve control and stability.
 
 ## Features
 
