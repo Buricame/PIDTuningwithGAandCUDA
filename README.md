@@ -28,3 +28,4 @@ To run this code, you need to have the following Python packages installed:
 You can install the required packages using pip:
 
 ```bash
+pip install numpy pandas deap numba
