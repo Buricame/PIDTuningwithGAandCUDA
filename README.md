@@ -14,7 +14,9 @@ The Genetic Algorithm is employed to optimize the PID parameters by exploring di
 
 ## Limitations
 
-Please note that the optimization results may not always be highly accurate. The performance of the PID controller is dependent on various factors, including the quality of the data and the effectiveness of the Genetic Algorithm parameters. As a result, the optimized PID parameters might not achieve the best possible performance in all scenarios.
+Please note that the optimization results may not always be highly accurate. The performance of the PID controller is dependent on various factors, including the quality of the data and the effectiveness of the Genetic Algorithm parameters. In this project, flight data extracted from previous flights may contain noise and other irregularities, which could affect the optimization process. Despite preprocessing efforts, the presence of noisy or incomplete data can lead to suboptimal results.
+
+As a result, the optimized PID parameters might not achieve the best possible performance in all scenarios, especially if the data used in training is not fully representative of the actual operating conditions.
 
 ## Prerequisites
 
